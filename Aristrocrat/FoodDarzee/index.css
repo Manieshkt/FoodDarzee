@@ -1,0 +1,204 @@
+.background{
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-fresh-food-restaurant-green-background-material-image_134343.jpg") ;
+    height: 80vh;
+    background-size: cover;
+    /* width: 100%; */
+    background-position: center;
+}
+.Top-content{
+    text-align: center;
+}
+.Simple{
+    text-align: center;
+}
+.To-Do{
+    text-align: center;
+}
+.total-coupon{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.coupon{
+    background-color: rgb(83, 34, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+.Works{
+    margin-top: 100px;
+    height: 70vh;
+}
+.Works1{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.AllCards{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;  
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.start{
+    border-color: yellow;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgb(250, 237, 62) 5px 5px, rgba(250, 215, 18, 0.973) 10px 10px, rgba(247, 232, 23, 0.2) 15px 15px, rgba(248, 227, 37, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.All-work{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.Our-Work{
+    width: 45%;
+}
+.arrangeFood{
+    display: flex;
+    flex-direction: column;
+}
+.Food-pics{
+    width: 50%;
+    margin: 10px;
+}
+.Low-Carb{
+    background-image: url("https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzNfZDVhOWY0NjNjYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6Imluc2lkZSJ9fX0=");
+    height: 10vh;
+    background-position: center;
+    background-size: cover;
+}
+.Low-Carb:hover{
+    width: 100%;
+    height: 50vh;
+}
+.Vegan{
+    background-image: url("https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzJfOTNhOTdjNDZmYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjYwMCwiaGVpZ2h0IjozNzAsImZpdCI6Imluc2lkZSJ9fX0=");
+    height: 10vh;
+    background-position: center;
+    background-size: cover;
+}
+.Vegan:hover{
+    width: 100%;
+    height: 50vh;
+}
+.Balanced{
+    background-image: url("https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzFfMzIyYTVhYjU5Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImZpdCI6Imluc2lkZSJ9fX0=");
+    height:10vh;
+    background-position: center;
+    background-size: cover;
+}
+.Balanced:hover{
+    width: 100%;
+    height: 50vh;
+}
+.Keto{
+    background-image: url("https://upmeals.com/wp-content/uploads/2021/01/keto-diet-foods-46FGGSA-1-1536x1130.jpg");
+    height:10vh;
+    background-position: center;
+    background-size: cover;
+}
+.Keto:hover{
+    width: 100%;
+    height: 50vh;
+}
+.Menus{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.Meals-Menu{
+    border-bottom: 3px solid yellow;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:768px){
+    .coupon{
+        display: flex;
+        background-color: rgb(83, 34, 83);
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        border-radius: 10px;
+        margin: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .Code{
+        width: 100%;
+        text-align: center;
+    }
+    .avail-button1{
+        display: none;
+    }
+    .arrow1{
+        display: none;
+    }
+    .all{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        text-align: center;
+    }
+    .hide{
+        display: none;
+    }    
+    .PayDay{
+        /* display: block; */
+        margin: 10px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 150vh;
+    }
+    .AllCards{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        text-align: center;  
+        margin-top: 80px;
+        border-radius: 10px;
+    }
+    .Our-Work{
+        width: 100%;
+    }
+    .Works{
+        margin-top: 100px;
+        height: 170vh;
+    }
+    .All-work{
+        display: block;
+        width: 100%;
+       
+    }
+    .Food-pics{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 70%;
+        margin: 30px;
+    }
+    .Keto{
+        width: 100%;
+    }
+}
