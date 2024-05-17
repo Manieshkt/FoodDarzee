@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Aristocratie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Coached Cratie</a>
+                    <a class="nav-link" href="#">Baked Cratie</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">About Us</a>
+                    <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="background col-12">
+        <div class="Top-content">
+            <h1>Healthy Tasty Meals</h1>
+            <h1>Delivered Daily</h1>
+            <h1>Nutritionists to Guide You</h1>
+        </div>
+        <div class="Simple col-12 ">
+            <button style="padding: 10px;border-radius: 10px;border-color: yellow;border: 5px solid yellow;">Start Your
+                Meals</button>
+        </div>
+        <div class="To-Do col-12">
+            <button style="border: none;border-radius: 10px;padding: 10px;"><b>Lose Weight</b>
+                <p>Calorie Counted Meals</p>
+            </button>
+            <button style="border: none;border-radius: 10px;padding: 10px;margin: 10px"><b>Stay Fit</b>
+                <p>Eat Healthy Tasty Daily</p>
+            </button>
+            <button style="border: none;border-radius: 10px;padding: 10px"><b>Gain Muscle</b>
+                <p>High Protein Meals</p>
+            </button>
+        </div>
+    </div>
+    <div class="total-coupon">
+        <div class="payday col-md-8 ">
+            <h1 style="font-size: 54px;">PAYDAY SALE</h1>
+            <p>Invest in your health this month. 70% of your fitness is what you eat. Let us take care of this.</p>
+        </div>
+        <div class=" payday-Button " style="display: flex;align-items: center;">
+            <button class="avail-button1" style="padding: 10px;">Avail Now<button class="arrow1"
+                    style="padding: 10px;"><i class="fa-solid fa-angle-right"></i></button></button>
+        </div>
+    </div>
+    <div class="coupon">
+        <div class="Code">
+            <h1 style="color: white;">USE CODE PDAY20</h1>
+        </div>
+        <div class="all">
+            <div>
+                <span style="color: white;">Offer Ends in</span>
+                <h1 style="color: white;">00:00:00</h1>
+            </div>
+            <div>
+                <span style="color: white;">Claimed</span>
+                <h1 style="color: white;">55/</h1>
+            </div>
+            <div class="hide">
+                <span style="color: white;">Sold in the last hour</span>
+                <h1 style="color: white;">60</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="PayDay d-md-none">
+        <button class="avail-button2" style="padding: 10px;">Avail Now<button class="arrow2" style="padding: 10px;"><i
+                    class="fa-solid fa-angle-right"></i></button></button>
+    </div>
+
+    <div class="Works">
+        <div class="Works1">
+            <h1>How it Works ?</h1>
+            <b>This is what we do to ensure you lose weight</b>
+        </div>
+        <div class="cards">
+            <div class="AllCards">
+                <p><i class="fa-solid fa-user-nurse"></i></p>
+                <p style="font-size: 12px;">Personal Nutritionist</p>
+            </div>
+            <div class="AllCards">
+                <p><i class="fa-solid fa-bowl-rice"></i></p>
+                <p style="font-size: 12px;">Tasty Meals</p>
+            </div>
+            <div class="AllCards">
+                <p><i class="fa-regular fa-rectangle-list"></i></p>
+                <p style="font-size: 12px;">Weekly Health Checks</p>
+            </div>
+            <div class="AllCards">
+                <p><i class="fa-solid fa-truck"></i></p>
+                <p style="font-size: 12px;">Doorstep Delivery</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1>Aristocratie</h1>
+        <div class="All-work">
+            <div class="Our-Work">
+                <b style="font-size: x-large;">FOOD :</b><span style="font-size: large;">
+                    We provide breakfast, lunch, snack and dinner. We provide healthier alternatives of your favourite
+                    dishes and do not repeat a dish for 4 weeks.
+                </span>
+                <br /><br />
+                <b style="font-size: x-large;">NUTRITION :</b><span style="font-size: large;">
+                    We assign you a personal nutritionist who assesses your lifestyle, health requirements, eating
+                    habits and nutritional needs to help you achieve your weight loss goal.
+                </span>
+                <br /><br />
+                <b style="font-size: x-large;">MEAL DELIVERY :</b><span style="font-size: large;">We deliver meals for
+                    the Ketogenic, Low Carb High Protein, Vegan and Balanced Diet.
+                </span>
+                <br /><br />
+                <b style="font-size: x-large;">FLEXIBILITY :</b><span style="font-size: large;">
+                    We provide flexibility in terms of pausing or cancelling your meals, food and delivery preferences
+                    subject to our guidelines.
+                </span>
+                <br /><br />
+                <b style="font-size: x-large;">Know More</b><i style="font-size: large;margin-left: 10px;"
+                    class="fa-solid fa-angle-right"></i>
+                <br /><br />
+                <button class="start">Get Started</button>
+            </div>
+            <div class="Food-pics">
+                <div class="arrangeFood">
+                    <div class="Low-Carb" style="color: white;">Low Carb Meals</div>
+                    <div class="Vegan" style="color: white;">Vegan Meals</div>
+                    <div class="Balanced" style="color: white;">Balanced Meals</div>
+                    <div class="Keto" style="color: white;">Keto</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="Menus">
+            <h2>Aristocratie has a different menu everyday.Throughout the week!</h2>
+            <div class=" payday-Button " style="display: flex;align-items: center;">
+                <button class="avail-button1" style="padding: 10px;">Get Started<button class="arrow1"
+                        style="padding: 10px;"><i class="fa-solid fa-angle-right"></i></button></button>
+            </div>
+        </div>
+        <div class="Meals-Menu">
+            <p id="keto">Keto Meals</p>
+            <p id="Low">Low Carb Meals</p>
+            <p id="Bal">Balanced Meals</p>
+            <p id="Veg">Vegan Meals</p>
+        </div>
+    </div>
+    <div class="Foodies">
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IktldG9fQ2hpY2tlbl9TaGF3YXJhbWFfZmM3NDNjYmIxNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Chicken Shawarma</h5>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzVfZjI0NmQ2MjNmYi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Choclate Hazelnut Crepe</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzZfODk4MTg2MTkwMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Chilli Cheese Keto Paratha</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzdfZTIzNjM1MDM0Yi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Grilled Chicken Parmigiana</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzhfMTBiOGE2ZjVmYi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Paneer Tikka</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzlfYTZiZjY0MWEzZi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Cheese Omlette</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Foodies">
+        <div class="card1" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzEwXzQ4ZTM0NWQ5MmQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Chicken Buddha Bowl</h5>
+            </div>
+        </div>
+
+        <div class="card1" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzExXzhkYmIwM2FhMjcucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Teriyaki Bowl</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card1" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzEyXzBkMDczMzVhMWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Chicken Tikka</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card1" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzEzXzVlMWEwNDdkNzAucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Cottage Cheese Vearcruz</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card1" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzE0XzMyMDhiNjllZmYucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Grilled Cottage Cheese Go Galbi</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card1" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzE1X2IwNjJhNWRjN2QucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Gluten Free Cranberry CheeseCake</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card1" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzE2XzBkNGJlYjQzM2QucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Spanish Omlette</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Foodies">
+        <div class="card2" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzE3X2IzYTkwMTY2MDgucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Masala Jingha Meal</h5>
+            </div>
+        </div>
+
+        <div class="card2" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzE4X2NmNjg1YTI4N2MucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Caramel Tiramisu</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card2" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzE5Xzk3ZjMwNDRjNWQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Hyderabadi Briyani</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card2" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzIwXzgzZjhjM2YwZjYucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Grilled Bhujjing Chicken Meal</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card2" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzNfZDVhOWY0NjNjYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Barbeque Grilled Chicken with Brocolli Mash</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card2" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzFfMzIyYTVhYjU5Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Phav Bhaji with Wholewheat Pav</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Foodies">
+        <div class="card3" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzIxXzdhN2NkOWZhNDUucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Vegan MudCake</h5>
+            </div>
+        </div>
+
+        <div class="card3" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzIzX2Q5ZGEyMjM1YTcucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDI0LCJoZWlnaHQiOjYwMCwiZml0IjoiY292ZXIifX19"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Shahi Tofu</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card3" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IjJfZTA1MDgzMGE3Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Harissa Tofu</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card3" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IjRfYWFiMjA2ZDZhMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Subz handi</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card3" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IjZfNWVhZDNhM2Y3MC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Vegan Margherita Pizza</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card3" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IjVfNjhlN2VmMDY3MC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Vegan BBQ Burger</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card3" style="width: 18rem;">
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IjFfZTUzYjgxNjQzMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9fX0="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5>Beetroot Hummus With Pita</h5>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="Diabetes">
+            <h1 style="margin-right: 10px;">Diabetes</h1>
+            <h1 style="margin-right: 10px;">Management</h1>
+            <h1 style="margin-right: 10px;">Program</h1>
+        </div>
+    </div>
+
+    <div>
+        <div class="Nutri-work">
+            <div class="Dia-Work">
+                <b style="font-size: x-large;">Nutritionist Consultation :</b><span style="font-size: large;">
+                    Our nutritionist will conduct a thorough assessment, understanding your needs and limitations.
+                    Certain ingredients that might be harmful to you will be identified. Our team will constantly track
+                    your progress and make changes to your meals basis your feedback. For eg, if a certain ingredient or
+                    dish causes a glucose spike for you, it will be removed going forward.
+                </span>
+                <br /><br />
+                <b style="font-size: x-large;">Meal Delivery :</b><span style="font-size: large;">
+                    Our meals are calorie counted, each ingredient measured and added into the meal. The nutritionist
+                    will ask you to send us your glucose level after meal consumption and accordingly alter the plan. We
+                    will be giving you healthier versions of your favourite dishes. The aim would be to make this
+                    journey as simple as possible for you. The food will taste great and will still keep your levels in
+                    check.
+                </span>
+                <br /><br />
+                <b style="font-size: x-large;">Lifestyle Guideance :</b><span style="font-size: large;">We deliver meals
+                    for
+                    the Ketogenic, Low Carb High Protein, Vegan and Balanced Diet.
+                </span>
+                <br /><br />
+                <b style="font-size: x-large;">FLEXIBILITY :</b><span style="font-size: large;">
+                    Our dedicated team will advise and guide you along your journey to make the necessary lifestyle
+                    changes to tackle diabetes. We will advise you on workout plans and sustainable food fillers as well
+                </span>
+                <br /><br />
+                <b style="font-size: x-large;">Know More</b><i style="font-size: large;margin-left: 10px;"
+                    class="fa-solid fa-angle-right"></i>
+                <br /><br />
+                <button style="margin-bottom: 30px;" class="start">Get Started</button>
+            </div>
+            <div class="Diabetes-pics">
+                <div class="Arrange">
+                    <img class="pic1"
+                        src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IjExMDB4NjAwX0FobWFkX2ZpZ3VyXzVhYzIyYTU5NmUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjpudWxsLCJoZWlnaHQiOm51bGwsImZpdCI6bnVsbH19fQ==" />
+                    <img class="pic2"
+                        src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IkhJV19EQUlCRVRFU18wMV8yXzE0NWZiYjY5ZWEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjpudWxsLCJoZWlnaHQiOm51bGwsImZpdCI6bnVsbH19fQ==" />
+                    <img class="pic3"
+                        src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6ImRpYWJldGVzXzFfMV9mMDRkZDY3NWQyLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6bnVsbCwiaGVpZ2h0IjpudWxsLCJmaXQiOm51bGx9fX0= " />
+                    <img class="pic4"
+                        src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IkhJV19EQUlCRVRFU18wMl8yX2I2M2ZmZDU5ZjAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjpudWxsLCJoZWlnaHQiOm51bGwsImZpdCI6bnVsbH19fQ== " />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: rgb(233, 233, 250);" >
+    <div style="display: flex;padding: 30px;justify-content: space-between;">
+        <h1>SHOP NOW</h1>
+        <div class=" payday-Button " style="display: flex;align-items: center;">
+            <button class="avail-button1" style="padding: 10px;">Avail Now<button class="arrow1"
+                    style="padding: 10px;"><i class="fa-solid fa-angle-right"></i></button></button>
+        </div>
+    </div>
+
+        <div class="scroll-food"  >
+            <div class="scroll-card" style="width: 18rem;background-color: transparent;">
+                <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IjFfMzBmZjVlNWQzZi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM1MiwiaGVpZ2h0IjozNTIsImZpdCI6ImNvdmVyIn19fQ==" class="card-img-top" alt="...">
+                <div class="card-body" style="text-align: center;" >
+                  <p class="card-text">Keto Almond Bread Loaf</p>
+                  <p>478 gms</p>
+                  <p>$265</p>
+                </div>
+              </div>
+
+              <div class="scroll-card" style="width: 18rem;background-color: transparent;">
+                <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IkJha2VkX0RhcnplZV8xMV8zZDU0Y2RmMTMzLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM1MiwiaGVpZ2h0IjozNTIsImZpdCI6ImNvdmVyIn19fQ==" class="card-img-top" alt="...">
+                <div class="card-body" style="text-align: center;" >
+                  <p class="card-text">Keto Almond Onion Crispies</p>
+                  <p>20 Crispies</p>
+                  <p>$245</p>
+                </div>
+              </div>
+              
+              <div class="scroll-card" style="width: 18rem;background-color: transparent;">
+                <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6ImJyb3duaWVzNF9kYTYxNGI4MmY0LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzUyLCJoZWlnaHQiOjM1MiwiZml0IjoiY292ZXIifX19" class="card-img-top" alt="...">
+                <div class="card-body" style="text-align: center;">
+                  <p class="card-text">Keto Brownies</p>
+                  <p>5 Pieces</p>
+                  <p>$270</p>
+                </div>
+              </div>
+              
+              <div class="scroll-card" style="width: 18rem;background-color: transparent;">
+                <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzE1X2IwNjJhNWRjN2QucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozNTIsImhlaWdodCI6MzUyLCJmaXQiOiJjb3ZlciJ9fX0=" class="card-img-top" alt="...">
+                <div class="card-body" style="text-align: center;">
+                  <p class="card-text">Keto Cranberry CheeseCake</p>
+                  <p>750</p>
+                  <p>$649</p>
+                </div>
+              </div>
+
+              <div class="scroll-card" style="width: 18rem;background-color: transparent;">
+                <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IlVudGl0bGVkXzVfZjI0NmQ2MjNmYi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM1MiwiaGVpZ2h0IjozNTIsImZpdCI6ImNvdmVyIn19fQ== " class="card-img-top" alt="...">
+                <div class="card-body" style="text-align: center;">
+                  <p class="card-text">High Protein Choclate Hazelnut Crepe</p>
+                  <p>1 crepe</p>
+                  <p>$200</p>
+                </div>
+              </div>
+
+        </div>
+    </div>
+
+    <div class="transform" >
+     <div >
+        <h1>Transformation  Stories of our Customers</h1>
+        <p>We deliver what we promise. The results of our clientele is of utmost importance to us. We mentor you and help you lose weight in the most efficient and fun manner.</p>
+     </div>
+
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+        </div>
+        <div class="carousel-inner" style="text-align: center;" >
+          <div class="carousel-item active">
+            <h5>Transformation</h5>
+            <p>Arpita Borua</p>
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IklNR18yMDIwMDQwN19XQV8wMDM1X2Q5YjMxYmYyNjYuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDAsImhlaWdodCI6NDgwLCJmaXQiOiJjb250YWluIn19fQ==" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h5>Transformation</h5>
+            <p>Yash Kriplani</p>
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IklNR18yMDIwMDQwN19XQV8wMDE4XzA0N2QzMmQ3Y2MuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDAsImhlaWdodCI6NDgwLCJmaXQiOiJjb250YWluIn19fQ== " class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h5>Transformation</h5>
+            <p>Samidha Wangnoo</p>
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IklNR18yMDIwMDQwN19XQV8wMDM3XzE4ZDk3MDAyMDAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDAsImhlaWdodCI6NDgwLCJmaXQiOiJjb250YWluIn19fQ==" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <h5>Transformation</h5>
+            <p>Kash Pithwala</p>
+            <img src="https://img.fooddarzee.com/eyJidWNrZXQiOiJmb29kZGFyemVlLWltYWdlcyIsImtleSI6IklNR18yMDIwMDQwN19XQV8wMDM2X2Q2NTgyNTlhMWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDAsImhlaWdodCI6NDgwLCJmaXQiOiJjb250YWluIn19fQ==" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#keto").click(function () {
+            $(".card").show()
+            $(".card1").hide()
+            $(".card2").hide()
+            $(".card3").hide()
+        })
+        $("#Low").click(function () {
+            $(".card").hide()
+            $(".card1").show()
+            $(".card2").hide()
+            $(".card3").hide()
+        })
+        $("#Bal").click(function () {
+            $(".card").hide()
+            $(".card1").hide()
+            $(".card2").show()
+            $(".card3").hide()
+        })
+        $("#Veg").click(function () {
+            $(".card").hide()
+            $(".card1").hide()
+            $(".card2").hide()
+            $(".card3").show()
+        })
+    })
+</script>
+
+</html>
